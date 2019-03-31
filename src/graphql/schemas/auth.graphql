@@ -1,0 +1,23 @@
+type Auth {
+  username: String!
+  email: String!
+}
+
+type Token {
+  token: String!
+}
+type Mutation {
+  signIn(signInInput: SignInInput!): Token!
+  signUp(signUpInput: SignUpInput!): Auth!
+}
+
+input SignInInput {
+  email: String!
+  password: String!
+}
+
+input SignUpInput {
+  username: String!
+  email: String!
+  password: String!
+}

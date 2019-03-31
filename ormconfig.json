@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "isilo.db.elephantsql.com",
+  "port": 5432,
+  "username": "ppqvuofc",
+  "password": "mmG9yo0fEmIekK-JkA2n_d6iAigRaWUu",
+  "database": "ppqvuofc",
+  "entities": ["src/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
